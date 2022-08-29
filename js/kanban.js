@@ -44,6 +44,8 @@ const create_item = () => {
 
   item.appendChild(input);
   item.appendChild(save_btn);
+
+  return item;
 };
 
 document.querySelectorAll('.drop').forEach(element => {
