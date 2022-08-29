@@ -7,7 +7,7 @@ const message = 'Please add a description.';
 const add_btn = document.querySelector('.add');
 add_btn.addEventListener('click', () => {
   const target = document.querySelector('#requested');
-  if (adding == false) {
+  if (adding === false) {
     adding = true;
     target.appendChild(create_item());
   } else {
